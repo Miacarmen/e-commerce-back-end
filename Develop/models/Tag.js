@@ -1,6 +1,6 @@
 const { Model, DataTypes } = require("sequelize");
 
-const sequelize = require("../config/connection.js");
+const sequelize = require("../config/connection");
 
 // Product can have multiple tags AND tags have many products
 class Tag extends Model {}
@@ -21,6 +21,7 @@ Tag.init(
     tag_name: {
       // string
       type: DataTypes.STRING,
+      allowNull: false
     },
   },
   {

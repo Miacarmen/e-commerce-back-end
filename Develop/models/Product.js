@@ -25,13 +25,20 @@ Product.init(
     },
     product_name: {
       // Decimal
-      type: DataTypes.DECIMAL,
+      type: DataTypes.STRING,
       // doesn't allow null values
       allowNull: false,
       // validates value as decimal
       validate: {
         isDecimal: true,
       },
+    },
+    price: {
+      type: DataTypes.DECIMAL(10, 2),
+      allowNull: false,
+      validate: {
+        isDecimal: true
+      }
     },
     stock: {
       // integer
