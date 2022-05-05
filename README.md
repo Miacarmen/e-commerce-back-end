@@ -72,7 +72,7 @@ mysql> source db/seeds/index.js
 10. Exit the mysql shell by entering:
 
 ```bash
-exit
+mysql> exit
 ```
 
 11. Run the application by using the following command:
