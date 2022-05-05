@@ -28,10 +28,7 @@ Product.init(
       type: DataTypes.STRING,
       // doesn't allow null values
       allowNull: false,
-      // validates value as decimal
-      validate: {
-        isDecimal: true,
-      },
+      
     },
     price: {
       type: DataTypes.DECIMAL(10, 2),
@@ -52,7 +49,7 @@ Product.init(
         isNumeric: true,
       },
     },
-    catergory_id: {
+    category_id: {
       // integer
       type: DataTypes.INTEGER,
       // refrences 'Category model's id
