@@ -12,7 +12,7 @@
 
 ## Description
 
-
+A node application to keep your e-commerce site up to date by keeping track of and managing your business's inventory. Find, create, update, or delete categories, products, price, available stock, product descriptions, and more. 
 
 
 ## Tools
@@ -86,7 +86,7 @@ node server.js
 
 ## Usage
 
- 
+[![Walkthrough Video](e-commerce.png)]({https://www.loom.com/share/76e9ca8366ae4fe0a261aaac6cb0a96d})
 
 ## Credits
 
